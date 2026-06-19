@@ -13,6 +13,7 @@ import (
 	"github.com/oomph-ac/oomph/player/component"
 	"github.com/oomph-ac/oomph/player/context"
 	"github.com/oomph-ac/oomph/player/detection"
+	"github.com/oomph-ac/oomph/protocol/proto924"
 	"github.com/sandertv/gophertunnel/minecraft"
 
 	"github.com/go-echarts/statsview"
@@ -50,6 +51,7 @@ func main() {
 		FlushRate:           -1,
 		AllowUnknownPackets: true,
 		AllowInvalidPackets: true,
+		AcceptedProtocols:   []minecraft.Protocol{proto924.Protocol{}},
 	}.Listen("raknet", ":"+localPort)
 	if err != nil {
 		panic(err)

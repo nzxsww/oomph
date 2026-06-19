@@ -5,11 +5,11 @@ go 1.26.0
 require (
 	github.com/getsentry/sentry-go v0.43.0
 	github.com/go-echarts/statsview v0.4.2
+	github.com/oomph-ac/oconfig v0.0.0-20251121222848-6cf6c66594b8
 	github.com/oomph-ac/oomph v0.0.0-20260208201834-bff025a3d827
+	github.com/paroxity/portal v0.0.0-00010101000000-000000000000
 	github.com/sandertv/gophertunnel v1.56.2
 )
-
-replace github.com/oomph-ac/oomph => ../../
 
 require (
 	github.com/brentp/intintmap v0.0.0-20251106190759-56907b1f8479 // indirect
@@ -32,14 +32,21 @@ require (
 	github.com/klauspost/compress v1.18.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
-	github.com/oomph-ac/oconfig v0.0.0-20251121222848-6cf6c66594b8 // indirect
 	github.com/rs/cors v1.11.0 // indirect
 	github.com/sandertv/go-raknet v1.15.1-0.20260112202637-beca0b10c217 // indirect
+	github.com/scylladb/go-set v1.0.3-0.20200225121959-cc7b2070d91e // indirect
 	github.com/segmentio/fasthash v1.0.3 // indirect
+	github.com/sirupsen/logrus v1.9.3 // indirect
+	github.com/stretchr/testify v1.10.0 // indirect
 	github.com/zeebo/xxh3 v1.1.0 // indirect
+	go.uber.org/atomic v1.11.0 // indirect
 	golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa // indirect
 	golang.org/x/net v0.51.0 // indirect
 	golang.org/x/oauth2 v0.35.0 // indirect
 	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/text v0.34.0 // indirect
 )
+
+replace github.com/oomph-ac/oomph => ../../
+
+replace github.com/paroxity/portal => ../../lib/portal

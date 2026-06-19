@@ -10,6 +10,7 @@ oomph_prod/*
 .oomph_portal_prod/*
 survival_proxy/*
 players/*
+*.exe
 .DS_Store
 .fleet/
 .vscode.code-workspace

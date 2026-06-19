@@ -49,6 +49,9 @@ const (
 	GameVersion1_21_111 = 844
 	GameVersion1_21_120 = 859
 
+	GameVersion1_26_2  = 924
+	GameVersion1_26_20 = 975
+
 	TicksPerSecond = 20
 )
 
